@@ -1,4 +1,4 @@
-from flask import Vlueprint
+from flask import Blueprint
 
 bp = Blueprint('main', __name__)
 

@@ -1,5 +1,5 @@
 from re import L
-from flask_app import db
+from flask_app.__init__ import db
 from sqlalchemy import Column, Integer, String, ForeignKey,Text , PickleType
 
 class Wine_Category(db.Model):

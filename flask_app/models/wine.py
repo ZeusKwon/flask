@@ -12,4 +12,5 @@ class Wine(db.Model):
     body = db.Column(db.Integer)
     type = db.Column(db.string(64))
     price = db.Column(db.string(128))
+    
     wines = db.relationship('Wine_Category', backref='wine', cascade = "all,delete")
